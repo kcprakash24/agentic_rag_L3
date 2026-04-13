@@ -56,6 +56,11 @@ class Settings(BaseSettings):
     memory_last_n_messages: int = 6
     memory_summarize_after: int = 10
 
+    # Chunking
+    chunk_size: int = 1000       # kept for reference
+    chunk_overlap: int = 200     # kept for reference
+    docling_max_tokens: int = 512  # HybridChunker token limit
+
     # Retrieval
     retrieval_top_k: int = 20        # candidates from pgvector
     rerank_top_n: int = 4            # final chunks after reranking

@@ -16,6 +16,7 @@ dependencies = [
     "pgvector>=0.3.6",
     "psycopg2-binary>=2.9.11",
     "pydantic-settings>=2.13.1",
+    "pymupdf4llm>=1.27.2.2",
     "python-dotenv>=1.2.2",
     "ragas>=0.4.3",
     "redis>=7.4.0",
