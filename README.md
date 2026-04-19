@@ -23,6 +23,9 @@ Covers layout-aware PDF ingestion, two-stage retrieval, Self-RAG grading, automa
 
 > **Chunking Token Selection Criteria:** Rule of thumb: 1 token ≈ 4 chars ≈ 0.75 words. So 512 tokens ≈ 384 words ≈ 2048 chars. For this project, avg_chars of 1033 ≈ 258 words ≈ 344 tokens — well within the 512 limit.
 
+>You can refer the notebook for step by step understanding of the repo. <br>
+Extension of `basic_rag_w_trace_L1` & `agentic_stateful_rag_L2` repository.
+
 ## Tech Stack
 
 | Component | Choice |
